@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<bean class="com.takeo.model.Employee" id="emp">
+<constructor-arg index="0" type="int" value="100"></constructor-arg>
+<constructor-arg index="1" type="String" value="Rani"></constructor-arg>
+
+</bean> 
+<bean class="com.takeo.model.Employee" id="em">
+<constructor-arg index="0" type="double" value="400"></constructor-arg>
+<constructor-arg index="1" type="String" value="Hello World I am Spring."></constructor-arg>
+</bean>
+
+</beans>
