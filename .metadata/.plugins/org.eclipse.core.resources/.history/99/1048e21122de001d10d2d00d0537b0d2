@@ -1,0 +1,7 @@
+package com.takeo.service;
+
+public class EmpServiceImpl implements EmployeeService
+{
+	
+
+}
